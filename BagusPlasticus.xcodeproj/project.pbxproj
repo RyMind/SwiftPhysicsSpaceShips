@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FD622E1B06800800CEF406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD622D1B06800800CEF406 /* AppDelegate.swift */; };
+		01FD62301B06800800CEF406 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD622F1B06800800CEF406 /* GameScene.swift */; };
+		01FD62321B06800800CEF406 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01FD62311B06800800CEF406 /* GameScene.sks */; };
+		01FD62341B06800800CEF406 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FD62331B06800800CEF406 /* Images.xcassets */; };
+		01FD62371B06800800CEF406 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD62351B06800800CEF406 /* MainMenu.xib */; };
+		01FD62431B06800800CEF406 /* BagusPlasticusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD62421B06800800CEF406 /* BagusPlasticusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01FD623D1B06800800CEF406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FD62201B06800800CEF406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FD62271B06800800CEF406;
+			remoteInfo = BagusPlasticus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FD62281B06800800CEF406 /* BagusPlasticus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagusPlasticus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FD622C1B06800800CEF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FD622D1B06800800CEF406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01FD622F1B06800800CEF406 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		01FD62311B06800800CEF406 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		01FD62331B06800800CEF406 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01FD62361B06800800CEF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01FD623C1B06800800CEF406 /* BagusPlasticusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagusPlasticusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FD62411B06800800CEF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FD62421B06800800CEF406 /* BagusPlasticusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagusPlasticusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FD62251B06800800CEF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FD62391B06800800CEF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FD621F1B06800800CEF406 = {
+			isa = PBXGroup;
+			children = (
+				01FD622A1B06800800CEF406 /* BagusPlasticus */,
+				01FD623F1B06800800CEF406 /* BagusPlasticusTests */,
+				01FD62291B06800800CEF406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01FD62291B06800800CEF406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FD62281B06800800CEF406 /* BagusPlasticus.app */,
+				01FD623C1B06800800CEF406 /* BagusPlasticusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FD622A1B06800800CEF406 /* BagusPlasticus */ = {
+			isa = PBXGroup;
+			children = (
+				01FD622D1B06800800CEF406 /* AppDelegate.swift */,
+				01FD622F1B06800800CEF406 /* GameScene.swift */,
+				01FD62311B06800800CEF406 /* GameScene.sks */,
+				01FD62331B06800800CEF406 /* Images.xcassets */,
+				01FD62351B06800800CEF406 /* MainMenu.xib */,
+				01FD622B1B06800800CEF406 /* Supporting Files */,
+			);
+			path = BagusPlasticus;
+			sourceTree = "<group>";
+		};
+		01FD622B1B06800800CEF406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01FD622C1B06800800CEF406 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01FD623F1B06800800CEF406 /* BagusPlasticusTests */ = {
+			isa = PBXGroup;
+			children = (
+				01FD62421B06800800CEF406 /* BagusPlasticusTests.swift */,
+				01FD62401B06800800CEF406 /* Supporting Files */,
+			);
+			path = BagusPlasticusTests;
+			sourceTree = "<group>";
+		};
+		01FD62401B06800800CEF406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01FD62411B06800800CEF406 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FD62271B06800800CEF406 /* BagusPlasticus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FD62461B06800800CEF406 /* Build configuration list for PBXNativeTarget "BagusPlasticus" */;
+			buildPhases = (
+				01FD62241B06800800CEF406 /* Sources */,
+				01FD62251B06800800CEF406 /* Frameworks */,
+				01FD62261B06800800CEF406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BagusPlasticus;
+			productName = BagusPlasticus;
+			productReference = 01FD62281B06800800CEF406 /* BagusPlasticus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01FD623B1B06800800CEF406 /* BagusPlasticusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FD62491B06800800CEF406 /* Build configuration list for PBXNativeTarget "BagusPlasticusTests" */;
+			buildPhases = (
+				01FD62381B06800800CEF406 /* Sources */,
+				01FD62391B06800800CEF406 /* Frameworks */,
+				01FD623A1B06800800CEF406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FD623E1B06800800CEF406 /* PBXTargetDependency */,
+			);
+			name = BagusPlasticusTests;
+			productName = BagusPlasticusTests;
+			productReference = 01FD623C1B06800800CEF406 /* BagusPlasticusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FD62201B06800800CEF406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ryan T MacKenzie";
+				TargetAttributes = {
+					01FD62271B06800800CEF406 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					01FD623B1B06800800CEF406 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 01FD62271B06800800CEF406;
+					};
+				};
+			};
+			buildConfigurationList = 01FD62231B06800800CEF406 /* Build configuration list for PBXProject "BagusPlasticus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FD621F1B06800800CEF406;
+			productRefGroup = 01FD62291B06800800CEF406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FD62271B06800800CEF406 /* BagusPlasticus */,
+				01FD623B1B06800800CEF406 /* BagusPlasticusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FD62261B06800800CEF406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD62321B06800800CEF406 /* GameScene.sks in Resources */,
+				01FD62341B06800800CEF406 /* Images.xcassets in Resources */,
+				01FD62371B06800800CEF406 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FD623A1B06800800CEF406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FD62241B06800800CEF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD62301B06800800CEF406 /* GameScene.swift in Sources */,
+				01FD622E1B06800800CEF406 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FD62381B06800800CEF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD62431B06800800CEF406 /* BagusPlasticusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01FD623E1B06800800CEF406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FD62271B06800800CEF406 /* BagusPlasticus */;
+			targetProxy = 01FD623D1B06800800CEF406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01FD62351B06800800CEF406 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FD62361B06800800CEF406 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01FD62441B06800800CEF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01FD62451B06800800CEF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01FD62471B06800800CEF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BagusPlasticus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01FD62481B06800800CEF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BagusPlasticus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01FD624A1B06800800CEF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BagusPlasticusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BagusPlasticus.app/Contents/MacOS/BagusPlasticus";
+			};
+			name = Debug;
+		};
+		01FD624B1B06800800CEF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BagusPlasticusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BagusPlasticus.app/Contents/MacOS/BagusPlasticus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FD62231B06800800CEF406 /* Build configuration list for PBXProject "BagusPlasticus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FD62441B06800800CEF406 /* Debug */,
+				01FD62451B06800800CEF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FD62461B06800800CEF406 /* Build configuration list for PBXNativeTarget "BagusPlasticus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FD62471B06800800CEF406 /* Debug */,
+				01FD62481B06800800CEF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FD62491B06800800CEF406 /* Build configuration list for PBXNativeTarget "BagusPlasticusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FD624A1B06800800CEF406 /* Debug */,
+				01FD624B1B06800800CEF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01FD62201B06800800CEF406 /* Project object */;
+}
